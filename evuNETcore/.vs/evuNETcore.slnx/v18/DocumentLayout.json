@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\evuNETcore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F96AA-F658-4422-9161-A471A39F6A10}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\evunetcore\\evunetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0F96AA-F658-4422-9161-A471A39F6A10}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0F96AA-F658-4422-9161-A471A39F6A10}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\evunetcore\\evunetcore\\evunetcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7C0F96AA-F658-4422-9161-A471A39F6A10}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\evunetcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "evuNETcore",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\evuNETcore\\evuNETcore\\evuNETcore.csproj",
+              "RelativeDocumentMoniker": "evuNETcore\\evuNETcore.csproj",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\evuNETcore\\evuNETcore\\evuNETcore.csproj",
+              "RelativeToolTip": "evuNETcore\\evuNETcore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-10T20:18:55.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\evuNETcore\\evuNETcore\\Program.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\Program.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\evuNETcore\\evuNETcore\\Program.cs",
+              "RelativeToolTip": "evuNETcore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:18:52.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
