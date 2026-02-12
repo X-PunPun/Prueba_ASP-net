@@ -1,0 +1,535 @@
+{
+  "info": {
+    "_postman_id": "ff7e50d3-f495-4d51-8abd-fbbb1248b28e",
+    "name": "Evaluación API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50084633",
+    "_collection_link": "https://go.postman.co/collection/50084633-ff7e50d3-f495-4d51-8abd-fbbb1248b28e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Crear Token",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"admin123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7029/api/auth/login",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Poblar Datos",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg0OTU1MSwiZXhwIjoxNzcwODUwMTUxLCJpYXQiOjE3NzA4NDk1NTF9.vM8L-Ap0k1Ibw6KvKXe6463wvwpIbrL1O-lW50sg7DU",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"admin123\"\r\n}"
+        },
+        "url": {
+          "raw": "https://localhost:7029/api/rates/sync-history?baseCurrency=EUR&start=2024-01-01&end=2024-12-31",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates",
+            "sync-history"
+          ],
+          "query": [
+            {
+              "key": "baseCurrency",
+              "value": "EUR"
+            },
+            {
+              "key": "start",
+              "value": "2024-01-01"
+            },
+            {
+              "key": "end",
+              "value": "2024-12-31"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Calcular Promedio",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg1MzQxNCwiZXhwIjoxNzcwODU0MDE0LCJpYXQiOjE3NzA4NTM0MTR9.SWH6-5YYMvBKBCQKR_EuelH2RWpNFatdXDyPz2FhHi4",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7029/api/rates/average?baseCur=EUR&targetCur=USD&start=2024-01-01&end=2024-12-31",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates",
+            "average"
+          ],
+          "query": [
+            {
+              "key": "baseCur",
+              "value": "EUR"
+            },
+            {
+              "key": "targetCur",
+              "value": "USD"
+            },
+            {
+              "key": "start",
+              "value": "2024-01-01"
+            },
+            {
+              "key": "end",
+              "value": "2024-12-31"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Calcular Min y Max",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg1MzQxNCwiZXhwIjoxNzcwODU0MDE0LCJpYXQiOjE3NzA4NTM0MTR9.SWH6-5YYMvBKBCQKR_EuelH2RWpNFatdXDyPz2FhHi4",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7029/api/rates/minmax?baseCur=EUR&targetCur=USD&start=2024-01-01&end=2024-12-31",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates",
+            "minmax"
+          ],
+          "query": [
+            {
+              "key": "baseCur",
+              "value": "EUR"
+            },
+            {
+              "key": "targetCur",
+              "value": "USD"
+            },
+            {
+              "key": "start",
+              "value": "2024-01-01"
+            },
+            {
+              "key": "end",
+              "value": "2024-12-31"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Obtener Todas",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg0OTU1MSwiZXhwIjoxNzcwODUwMTUxLCJpYXQiOjE3NzA4NDk1NTF9.vM8L-Ap0k1Ibw6KvKXe6463wvwpIbrL1O-lW50sg7DU",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7029/api/rates",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Crear Tasa Manual",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg1MjA4OSwiZXhwIjoxNzcwODUyNjg5LCJpYXQiOjE3NzA4NTIwODl9.YA6h7RtPap4vs276IvEziLY4rfgx2RqfqZmAcdb9uyk",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"baseCurrency\": \"USD\",\r\n  \"targetCurrency\": \"CLP\",\r\n  \"rate\": 990.50,\r\n  \"date\": \"2025-05-20T00:00:00\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7029/api/rates",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Actualizar Tasa",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg1MDU1NCwiZXhwIjoxNzcwODUxMTU0LCJpYXQiOjE3NzA4NTA1NTR9.cwbprI2lxDC_9oymeiu4y5Tc-HOW7tpP3u3zSp08vz8",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"baseCurrency\": \"EUR\",\r\n  \"targetCurrency\": \"CLP\",\r\n  \"rate\": 1000.00,\r\n  \"date\": \"2025-05-20T00:00:00\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7029/api/rates/7743",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates",
+            "7743"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Eliminar Tasa",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg1MDU1NCwiZXhwIjoxNzcwODUxMTU0LCJpYXQiOjE3NzA4NTA1NTR9.cwbprI2lxDC_9oymeiu4y5Tc-HOW7tpP3u3zSp08vz8",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7029/api/rates/7742",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates",
+            "7742"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Obtener por ID",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg1MjA4OSwiZXhwIjoxNzcwODUyNjg5LCJpYXQiOjE3NzA4NTIwODl9.YA6h7RtPap4vs276IvEziLY4rfgx2RqfqZmAcdb9uyk",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7029/api/rates/7744",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates",
+            "7744"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Actualizar por ID",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg1MjA4OSwiZXhwIjoxNzcwODUyNjg5LCJpYXQiOjE3NzA4NTIwODl9.YA6h7RtPap4vs276IvEziLY4rfgx2RqfqZmAcdb9uyk",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"baseCurrency\": \"USD\",\r\n  \"targetCurrency\": \"CLP\",\r\n  \"rate\": 700.00,\r\n  \"date\": \"2025-05-21T00:00:00\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7029/api/rates/7744",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates",
+            "7744"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Eliminar por ID",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg1MjA4OSwiZXhwIjoxNzcwODUyNjg5LCJpYXQiOjE3NzA4NTIwODl9.YA6h7RtPap4vs276IvEziLY4rfgx2RqfqZmAcdb9uyk",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7029/api/rates/7744",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates",
+            "7744"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Obtener por Moneda Base",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg1MzQxNCwiZXhwIjoxNzcwODU0MDE0LCJpYXQiOjE3NzA4NTM0MTR9.SWH6-5YYMvBKBCQKR_EuelH2RWpNFatdXDyPz2FhHi4",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7029/api/rates/currency/USD",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates",
+            "currency",
+            "USD"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Actualizar por Moneda Base",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg1MjA4OSwiZXhwIjoxNzcwODUyNjg5LCJpYXQiOjE3NzA4NTIwODl9.YA6h7RtPap4vs276IvEziLY4rfgx2RqfqZmAcdb9uyk",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"baseCurrency\": \"EUR\",\r\n  \"targetCurrency\": \"ANY\",\r\n  \"rate\": 0,\r\n  \"date\": \"2024-12-31T00:00:00\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7029/api/rates/currency/EUR",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates",
+            "currency",
+            "EUR"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Eliminar por Moneda Base",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbiIsIm5iZiI6MTc3MDg1MzQxNCwiZXhwIjoxNzcwODU0MDE0LCJpYXQiOjE3NzA4NTM0MTR9.SWH6-5YYMvBKBCQKR_EuelH2RWpNFatdXDyPz2FhHi4",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7029/api/rates/currency/USD",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7029",
+          "path": [
+            "api",
+            "rates",
+            "currency",
+            "USD"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
