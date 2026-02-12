@@ -1,7 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\evuNETcore\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\controllers\\ratescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\controllers\\ratescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\services\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\services\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\dtos\\exchangeratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\dtos\\exchangeratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\entity\\exchangerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\entity\\exchangerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\entity\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\entity\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\dtos\\createexchangeratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\dtos\\createexchangeratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\data\\appdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\data\\appdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\data\\frankfurterclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\data\\frankfurterclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|c:\\users\\socius\\desktop\\asp_net_evaluacion\\lazerproyect\\evunetcore\\evunetcore\\evunetcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F699725D-C77C-D8E9-9680-8D72CDD23F88}|evuNETcore\\evuNETcore.csproj|solutionrelative:evunetcore\\evunetcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +91,191 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "evuNETcore\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:29:44.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRateService.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Services\\IRateService.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\Services\\IRateService.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Services\\IRateService.cs",
+              "RelativeToolTip": "evuNETcore\\Services\\IRateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:01:57.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RateService.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Services\\RateService.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\Services\\RateService.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Services\\RateService.cs",
+              "RelativeToolTip": "evuNETcore\\Services\\RateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:35:45.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Program.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\Program.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Program.cs",
+              "RelativeToolTip": "evuNETcore\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:18:52.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\appsettings.json",
+              "RelativeDocumentMoniker": "evuNETcore\\appsettings.json",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\appsettings.json",
+              "RelativeToolTip": "evuNETcore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-10T20:45:58.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExchangeRateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\DTOs\\ExchangeRateDTO.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\DTOs\\ExchangeRateDTO.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\DTOs\\ExchangeRateDTO.cs",
+              "RelativeToolTip": "evuNETcore\\DTOs\\ExchangeRateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T21:37:49.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RatesController.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Controllers\\RatesController.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\Controllers\\RatesController.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Controllers\\RatesController.cs",
+              "RelativeToolTip": "evuNETcore\\Controllers\\RatesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T12:46:22.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExchangeRate.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Entity\\ExchangeRate.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\Entity\\ExchangeRate.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Entity\\ExchangeRate.cs",
+              "RelativeToolTip": "evuNETcore\\Entity\\ExchangeRate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:14:38.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Entity\\Currency.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\Entity\\Currency.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Entity\\Currency.cs",
+              "RelativeToolTip": "evuNETcore\\Entity\\Currency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:12:23.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateExchangeRateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\DTOs\\CreateExchangeRateDTO.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\DTOs\\CreateExchangeRateDTO.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\DTOs\\CreateExchangeRateDTO.cs",
+              "RelativeToolTip": "evuNETcore\\DTOs\\CreateExchangeRateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T21:37:43.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrankfurterClient.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Data\\FrankfurterClient.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\Data\\FrankfurterClient.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Data\\FrankfurterClient.cs",
+              "RelativeToolTip": "evuNETcore\\Data\\FrankfurterClient.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:00:31.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContex.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Data\\AppDbContex.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\Data\\AppDbContex.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Data\\AppDbContex.cs",
+              "RelativeToolTip": "evuNETcore\\Data\\AppDbContex.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:16:20.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "evuNETcore\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "evuNETcore\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T13:37:12.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "evuNETcore.csproj",
+              "DocumentMoniker": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\evuNETcore.csproj",
+              "RelativeDocumentMoniker": "evuNETcore\\evuNETcore.csproj",
+              "ToolTip": "C:\\Users\\Socius\\Desktop\\ASP_Net_Evaluacion\\LazerProyect\\evuNETcore\\evuNETcore\\evuNETcore.csproj",
+              "RelativeToolTip": "evuNETcore\\evuNETcore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-10T20:18:55.74Z"
             }
           ]
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("evuNETcore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b1234a8dddd3b6625f1c449e646f655424e5aa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("evuNETcore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("evuNETcore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
