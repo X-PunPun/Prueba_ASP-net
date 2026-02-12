@@ -50,10 +50,3 @@ Asegúrate de tener instalado:
 3.  [Postman](https://www.postman.com/) (Para pruebas)
 
 ---
-
-## 🔧 Instalación y Configuración
-
-### 1. Clonar el Repositorio
-```bash
-git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
-cd TU_REPOSITORIO
